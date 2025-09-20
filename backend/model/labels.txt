@@ -1,0 +1,6 @@
+0 Fire
+1 HumanDamage
+2 EarthQuake
+3 LandDamage
+4 NoDamage
+5 Flood

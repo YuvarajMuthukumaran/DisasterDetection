@@ -20,8 +20,10 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 # -------------------------------------
 
 # === LOAD CLASSIFICATION MODEL (KERAS) ===
-CLASSIFICATION_MODEL_PATH = 'model/keras_model.h5'
-LABELS_PATH = 'model/labels.txt'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+CLASSIFICATION_MODEL_PATH = os.path.join(BASE_DIR, "model", "keras_model.h5")
+LABELS_PATH = os.path.join(BASE_DIR, "model", "labels.txt")
+DETECTION_MODEL_PATH = os.path.join(BASE_DIR, "model", "yolov8n.pt")
 
 print("Loading Keras classification model...")
 classification_model = tf.keras.models.load_model(CLASSIFICATION_MODEL_PATH, compile=False)
@@ -164,4 +166,4 @@ def full_analysis():
 # -------------------------------------
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000)

@@ -872,12 +872,8 @@ const DisasterResponseApp = () => {
               <h2>About the Developer</h2>
               <p>
                 <h2>Dev1:</h2>
-                <p>     Name : Srinivasan M</p>
-                <p>     Roll No : 312322104174</p>
-                <p>     College :- St.Joseph's College of Engineering</p>
-                <h2>Dev2:</h2>
-                <p>     Name : Sudarshan S</p>
-                <p>     Roll No : 312322104308</p>
+                <p>     Name : Yuvaraj M</p>
+                <p>     Roll No : 312322104312</p>
                 <p>     College :- St.Joseph's College of Engineering</p>
               </p>
               <p>

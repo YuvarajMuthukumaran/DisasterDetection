@@ -9,14 +9,16 @@ The system allows users to upload or capture disaster images and instantly recei
 - Emergency response suggestions
 - Detected objects in the scene
 
+## ⚙️ Installation & Setup
 ---
 ### 🔧 Backend Setup
 
 ```bash
 pip install flask flask-cors tensorflow pillow numpy ultralytics
 python app.py
-```
+
 ### FrontEnd Setup
+```bash
 npm install
 npm run dev
 
@@ -89,6 +91,5 @@ Returns:
 
 ---
 
-## ⚙️ Installation & Setup
 
 

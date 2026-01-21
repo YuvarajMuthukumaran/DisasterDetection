@@ -16,12 +16,12 @@ The system allows users to upload or capture disaster images and instantly recei
 ```bash
 pip install flask flask-cors tensorflow pillow numpy ultralytics
 python app.py
-
+```
 ### FrontEnd Setup
 ```bash
 npm install
 npm run dev
-
+```
 ## 🚀 Features
 
 - 🧠 **CNN-based Disaster Classification**
